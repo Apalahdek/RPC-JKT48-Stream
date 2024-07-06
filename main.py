@@ -21,7 +21,7 @@ def fetch_data_from_api():
         return None
 
 def create_rich_presence(user, image, stream_url, title, view_count, live_at, slug):
-    client_id = 'CLIENT_ID'  # Ganti dengan client ID aplikasi Discord Anda
+    client_id = '1003187408751308851'  # Ganti dengan client ID aplikasi Discord Anda
     RPC = Presence(client_id)
     RPC.connect()
 
